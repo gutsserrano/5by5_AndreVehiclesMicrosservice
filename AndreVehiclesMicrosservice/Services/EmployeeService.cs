@@ -47,8 +47,6 @@ namespace Services
                     return false;
                 }
 
-                var positionId = _genericRepository.GetAll<Position>(Position.GETALL).Last().Id;
-
                 Object employeeObj = new
                 {
                     Document = employee.Document,

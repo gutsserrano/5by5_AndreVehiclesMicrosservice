@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Operation"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Buy", "APIAndreVehicles.Buy\APIAndreVehicles.Buy.csproj", "{6BC42119-761B-4011-9A14-076F1285C03E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Client", "APIAndreVehicles.Client\APIAndreVehicles.Client.csproj", "{37FFAB7F-26DE-492C-99F0-4FEFC8F8AB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Employee", "APIAndreVehicles.Employee\APIAndreVehicles.Employee.csproj", "{CE23ED97-0EFD-439B-BD42-58FECEC76CFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{6BC42119-761B-4011-9A14-076F1285C03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC42119-761B-4011-9A14-076F1285C03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC42119-761B-4011-9A14-076F1285C03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FFAB7F-26DE-492C-99F0-4FEFC8F8AB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FFAB7F-26DE-492C-99F0-4FEFC8F8AB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FFAB7F-26DE-492C-99F0-4FEFC8F8AB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FFAB7F-26DE-492C-99F0-4FEFC8F8AB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE23ED97-0EFD-439B-BD42-58FECEC76CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE23ED97-0EFD-439B-BD42-58FECEC76CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE23ED97-0EFD-439B-BD42-58FECEC76CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE23ED97-0EFD-439B-BD42-58FECEC76CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
