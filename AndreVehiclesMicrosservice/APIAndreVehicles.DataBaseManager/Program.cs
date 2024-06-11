@@ -1,15 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using APIAndreVehicles.Car.Data;
-namespace APIAndreVehicles.Car
+using APIAndreVehicles.DataBaseManager.Data;
+namespace APIAndreVehicles.DataBaseManager
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<APIAndreVehiclesCarContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("APIAndreVehiclesCarContext") ?? throw new InvalidOperationException("Connection string 'APIAndreVehiclesCarContext' not found.")));
+            builder.Services.AddDbContext<APIAndreVehiclesDataBaseManagerContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("APIAndreVehiclesDataBaseManagerContext") ?? throw new InvalidOperationException("Connection string 'APIAndreVehiclesDataBaseManagerContext' not found.")));
 
             // Add services to the container.
 

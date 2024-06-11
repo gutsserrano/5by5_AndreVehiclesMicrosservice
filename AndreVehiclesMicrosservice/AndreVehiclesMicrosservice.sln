@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{693E1D35-C6B7-4412-9B7B-01F8A51C0058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{693E1D35-C6B7-4412-9B7B-01F8A51C0058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{86124C50-B95B-4674-BD63-A305D3F4B26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{86124C50-B95B-4674-BD63-A305D3F4B26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{9057E2B6-2BFF-4E28-912B-A9235EAAE2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{9057E2B6-2BFF-4E28-912B-A9235EAAE2F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Car", "APIAndreVehicles.Car\APIAndreVehicles.Car.csproj", "{6A34C368-C713-49F9-B43B-339717C5575F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIAndreVehicles.Car", "APIAndreVehicles.Car\APIAndreVehicles.Car.csproj", "{6A34C368-C713-49F9-B43B-339717C5575F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.DataBaseManager", "APIAndreVehicles.DataBaseManager\APIAndreVehicles.DataBaseManager.csproj", "{4ECEE3C1-EE1A-41B1-945F-2D1CB59035BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Operation", "APIAndreVehicles.Operation\APIAndreVehicles.Operation.csproj", "{17D1A564-6D1E-4FEE-A497-5D3D2C4F7C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIAndreVehicles.Buy", "APIAndreVehicles.Buy\APIAndreVehicles.Buy.csproj", "{6BC42119-761B-4011-9A14-076F1285C03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{6A34C368-C713-49F9-B43B-339717C5575F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A34C368-C713-49F9-B43B-339717C5575F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A34C368-C713-49F9-B43B-339717C5575F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECEE3C1-EE1A-41B1-945F-2D1CB59035BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECEE3C1-EE1A-41B1-945F-2D1CB59035BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECEE3C1-EE1A-41B1-945F-2D1CB59035BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECEE3C1-EE1A-41B1-945F-2D1CB59035BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D1A564-6D1E-4FEE-A497-5D3D2C4F7C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D1A564-6D1E-4FEE-A497-5D3D2C4F7C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D1A564-6D1E-4FEE-A497-5D3D2C4F7C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D1A564-6D1E-4FEE-A497-5D3D2C4F7C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC42119-761B-4011-9A14-076F1285C03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC42119-761B-4011-9A14-076F1285C03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC42119-761B-4011-9A14-076F1285C03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC42119-761B-4011-9A14-076F1285C03E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

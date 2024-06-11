@@ -14,7 +14,7 @@ namespace Repositories
 
         public GenericRepository()
         {
-            _conn = "Data Source=127.0.0.1; Initial Catalog=DBAndreVeiculosFramework; User Id=sa; Password=SqlServer2019!; TrustServerCertificate=Yes";
+            _conn = "Data Source=127.0.0.1; Initial Catalog=DBAndreVehiclesMicrosservice; User Id=sa; Password=SqlServer2019!; TrustServerCertificate=Yes";
         }
 
         public bool Insert(string query, object obj)

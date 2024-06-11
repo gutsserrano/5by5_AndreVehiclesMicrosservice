@@ -1,15 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using APIAndreVehicles.Car.Data;
-namespace APIAndreVehicles.Car
+using APIAndreVehicles.Buy.Data;
+namespace APIAndreVehicles.Buy
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<APIAndreVehiclesCarContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("APIAndreVehiclesCarContext") ?? throw new InvalidOperationException("Connection string 'APIAndreVehiclesCarContext' not found.")));
+            builder.Services.AddDbContext<APIAndreVehiclesBuyContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("APIAndreVehiclesBuyContext") ?? throw new InvalidOperationException("Connection string 'APIAndreVehiclesBuyContext' not found.")));
 
             // Add services to the container.
 
